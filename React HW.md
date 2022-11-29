@@ -1,0 +1,4 @@
+# React HW
+## Explain what you think is happening within the Counter example (link: https://beta.reactjs.org/learn)
+
+Using React, we declare a function, MyButton, that will return markdown shown in the 'return' portion (lines 10 to 15). Within MyButton, line 4 declares a variable and an incrementing function for that variable by using State from React. The function handleClick (lines 6 to 8) increments the count variable by 1. The return portion of the code generates markdown for a button using JSX, and it also adds a click event listener, and on click the handleClick function from lines 6 to 8 will run. The button will display how many times it has been clicked.
